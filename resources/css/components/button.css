@@ -1,0 +1,39 @@
+.button{
+    display:inline-block;
+    border-radius: 2rem;
+    filter: drop-shadow(0px 4px 3.5px rgba(0,0,0,0.1));
+    background-color: #fff;
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 1rem 4rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover{
+    color:#fff;
+    background-color: var(--primary-color);
+}
+
+.header__button{
+    font-size: 1.5rem;
+    color: #0064b1;
+    padding: 1rem 1rem;
+}
+
+@media(min-width: 1200px){
+    .header__button{
+        padding: 1rem 4rem;
+    }
+}
+
+.button--colored{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.button--colored:hover{
+    background-color: #fff;
+    color: var(--primary-color);
+}

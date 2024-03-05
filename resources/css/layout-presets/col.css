@@ -1,0 +1,22 @@
+
+.col-2{
+    flex: 1;
+}
+
+@media(min-width: 768px){
+    .col-2{
+        flex: 0 0 calc(48% - var(--gap));
+    }
+
+    .col-2--gapless{
+        flex: 0 0 50%;
+    }
+}
+
+.col-3{
+    flex: 0 0 calc(33.333% - var(--gap));
+}
+
+.col-3--gapless{
+    flex: 0 0 33%;
+}

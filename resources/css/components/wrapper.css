@@ -1,0 +1,16 @@
+.wrapper{
+    max-width: 98rem;
+    padding: 0rem 1.5rem;
+    margin: auto;
+}
+
+.wrapper--big{
+    max-width: 135rem;
+    margin: auto;
+}
+
+.footer__wrapper{
+    max-width: 108rem;
+    padding: 0rem 1.5rem;
+    margin: auto;
+}

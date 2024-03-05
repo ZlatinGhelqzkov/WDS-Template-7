@@ -1,0 +1,21 @@
+.customers {
+    padding: 10rem 1.5rem 15rem 1.5rem;
+    background: var(--primary-color);
+    text-align: center;
+}
+
+.customers h2{
+    margin-bottom: 6rem;
+}
+
+.customers__logos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.customers__logos:first-of-type{
+    margin-bottom: 5rem;
+}

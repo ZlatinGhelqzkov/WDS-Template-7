@@ -1,0 +1,70 @@
+.traits{
+    position: relative;
+    background: var(--gray-background);
+}
+
+.traits::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 90%;
+    margin:auto;
+    height: 1px;
+    opacity: 0.5;
+    background-color: var(--primary-color);
+
+}
+
+.traits__inner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    gap: 20px;
+    padding: 50% 1.5rem 7rem 1.5rem;
+}
+
+@media((min-width: 576px) and (max-width:767px)){
+    .traits__inner{
+        padding: 40% 1.5rem 7rem 1.5rem;
+    }
+}
+
+
+@media(min-width: 768px){
+    .traits__inner{
+        padding: 35% 1.5rem 7rem 1.5rem;
+    }
+}
+
+@media(min-width:992px){
+    .traits__inner{
+        position: relative;
+        justify-content: space-between;
+        padding: 32rem 0rem 7rem 0rem;
+    }
+}
+
+.traits-card{
+    background: #fff;
+    padding: 2rem 3rem 3rem 3rem;
+    border-radius: 1.5rem;
+    filter: drop-shadow(1.414px -1.414px 9px rgba(14,14,14,0.14));
+}
+
+.traits-card__title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.traits-card__title img{
+    margin-right: 1rem;
+}
+
+.traits-card p{
+    color: #06060a;
+    max-width: 24rem;
+}

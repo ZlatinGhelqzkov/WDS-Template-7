@@ -1,0 +1,42 @@
+h1{
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--primary-color );
+    text-transform: capitalize;
+}
+
+.h1--reverse{
+    color:#fff;
+}
+
+h2,h3,h5{
+    font-weight: 700;
+}
+
+h2{
+    font-size: 3.5rem;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.h2--reverse{
+    color: #fff;
+}
+
+h3{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color:  var(--primary-color);
+}
+
+h4{
+    font-size: 2rem;
+    line-height: 3rem;
+    color: var(--primary-color);
+    font-weight: 800;
+}
+
+h5{
+    font-size: 2rem;
+    color: #fff;
+}

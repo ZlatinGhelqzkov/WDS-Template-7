@@ -1,0 +1,52 @@
+.meeting__content{
+    background-color: var(--primary-color);
+}
+
+.meeting__content .wrapper{
+    position: relative;
+    padding: 7rem 1.5rem 30% 1.5rem;
+}
+
+@media(min-width: 768px){
+    .meeting__content .wrapper{
+        padding: 7rem 1.5rem 30% 1.5rem;
+    }
+}
+
+@media(min-width:992px){
+    .meeting__content .wrapper{
+        position: relative;
+        padding: 7rem 0rem 28rem 0rem;
+    }
+}
+
+.meeting__content h2{
+    margin-bottom: 4.5rem;
+}
+
+.meeting__content p{
+    color: #fff;
+    padding-bottom: 5rem;
+    max-width: 98rem;
+}
+
+.meeting__video{
+    position:absolute;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    padding-top: 56.25%;
+    border-radius: 1.5rem;
+    z-index: 5;
+    filter: drop-shadow(1.414px -1.414px 9px rgba(14,14,14,0.14));
+}
+
+.meeting__video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
