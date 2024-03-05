@@ -1,47 +1,47 @@
 /*##############################
 ############ RESET #############
 ##############################*/
-@import url(/resources/css/reset.css);
+@import url(./reset.css);
 
 
 
 /*##############################
 ########## TYPOGRAPHY ##########
 ##############################*/
-@import url(/resources/css/typograpghy/headings.css);
-@import url(/resources/css/typograpghy/paragraphs.css);
-@import url(/resources/css/typograpghy/links.css);
+@import url(./typograpghy/headings.css);
+@import url(./typograpghy/paragraphs.css);
+@import url(./typograpghy/links.css);
 
 
 
 /*##############################
 ########## LAYOUT PRESETS ######
 ##############################*/
-@import url(/resources/css/layout-presets/col.css);
+@import url(./layout-presets/col.css);
 
 
 
 /*##############################
 ########## COMPONENTS ##########
 ##############################*/
-@import url(/resources/css/components/wrapper.css);
-@import url(/resources/css/components/button.css);
+@import url(./components/wrapper.css);
+@import url(./components/button.css);
 
 
 
 /*##############################
 ########## SECTIONS ############
 ##############################*/
-@import url(/resources/css/sections/header.css);
-@import url(/resources/css/sections/intro.css);
-@import url(/resources/css/sections/businesses.css);
-@import url(/resources/css/sections/meeting.css);
-@import url(/resources/css/sections/traits.css);
-@import url(/resources/css/sections/system.css);
-@import url(/resources/css/sections/customers.css);
-@import url(/resources/css/sections/testimonials.css);
-@import url(/resources/css/sections/contact-us.css);
-@import url(/resources/css/sections/footer.css);
+@import url(./sections/header.css);
+@import url(./sections/intro.css);
+@import url(./sections/businesses.css);
+@import url(./sections/meeting.css);
+@import url(./sections/traits.css);
+@import url(./sections/system.css);
+@import url(./sections/customers.css);
+@import url(./sections/testimonials.css);
+@import url(./sections/contact-us.css);
+@import url(./sections/footer.css);
 
 
 
